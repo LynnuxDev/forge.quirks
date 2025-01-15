@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file. See [commit
 ## [1.2.1](https://github.com/LynnuxDev/forge.quirks/compare/v1.2.0...v1.2.1) (2025-01-15)
 
 
+### Features
+
+* Added pathResolve. ([9dcbf92](https://github.com/LynnuxDev/forge.quirks/commit/9dcbf921237547e6754d8f2e742fccbd4b2d23df))
+* Added pathJoin. ([877e194](https://github.com/LynnuxDev/forge.quirks/commit/877e1947296bda4d3e133932776ae32fd70cec4a))
+
+
 ### Bug Fixes
 
 * cpuThreads and cpuCores had same name. ([d5ebc8c](https://github.com/LynnuxDev/forge.quirks/commit/d5ebc8ce4bd57d63c6e31a4c6f9cc418e4fabfa1))
