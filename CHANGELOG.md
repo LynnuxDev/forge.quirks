@@ -1,7 +1,14 @@
 # Changelog
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
- 
+
+## [1.2.1](https://github.com/LynnuxDev/forge.quirks/compare/v1.2.0...v1.2.1) (2025-01-15)
+
+
+### Bug Fixes
+
+* cpuThreads and cpuCores had same name. ([d5ebc8c](https://github.com/LynnuxDev/forge.quirks/commit/d5ebc8ce4bd57d63c6e31a4c6f9cc418e4fabfa1))
+
 ## [1.2.0](https://github.com/LynnuxDev/forge.quirks/compare/v1.1.1...v1.2.0) (2025-01-09)
 
 
