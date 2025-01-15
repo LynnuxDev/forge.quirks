@@ -7,7 +7,7 @@ const forgescript_1 = require("@tryforge/forgescript");
 const path_1 = __importDefault(require("path"));
 exports.default = new forgescript_1.NativeFunction({
     name: "$pathResolve",
-    version: "1.0.0",
+    version: "1.2.1",
     output: forgescript_1.ArgType.String,
     description: "Resolve paths into an absolute path",
     unwrap: true,
