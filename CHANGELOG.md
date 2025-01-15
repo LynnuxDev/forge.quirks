@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.3.0](https://github.com/LynnuxDev/forge.quirks/compare/v1.2.1...v1.3.0) (2025-01-15)
+
+
+### Features
+
+* added dirname function ([b3c072a](https://github.com/LynnuxDev/forge.quirks/commit/b3c072a4cb82989a14e4429c068d67fbd021d21b))
+
 ## [1.2.1](https://github.com/LynnuxDev/forge.quirks/compare/v1.2.0...v1.2.1) (2025-01-15)
 
 
