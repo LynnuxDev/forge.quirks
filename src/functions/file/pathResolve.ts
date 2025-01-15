@@ -3,7 +3,7 @@ import path from "path";
 
 export default new NativeFunction({
   name: "$pathResolve",
-  version: "1.0.0",
+  version: "1.2.1",
   output: ArgType.String,
   description: "Resolve paths into an absolute path",
   unwrap: true,

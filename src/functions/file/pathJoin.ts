@@ -3,7 +3,7 @@ import path from "path";
 
 export default new NativeFunction({
   name: "$pathJoin",
-  version: "1.0.0",
+  version: "1.2.1",
   output: ArgType.Boolean,
   description: "Join paths together",
   unwrap: true,
