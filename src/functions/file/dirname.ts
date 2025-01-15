@@ -7,7 +7,6 @@ export default new NativeFunction({
   output: ArgType.Boolean,
   description: "Returns the absolute path of the directory containing the script",
   unwrap: false,
-  brackets: false,
   execute(ctx) {
       return this.success(__dirname);
   },
