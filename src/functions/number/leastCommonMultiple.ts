@@ -4,7 +4,7 @@ export default new NativeFunction({
   name: "$leastCommonMultiple",
   aliases: ["$lcm"],
   version: "1.0.0",
-  output: ArgType.Boolean,
+  output: ArgType.Number,
   description: "The Least Common Multiple of NumberA and NumberB.",
   unwrap: true,
   args: [

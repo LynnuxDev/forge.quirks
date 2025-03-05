@@ -4,7 +4,7 @@ export default new NativeFunction({
   name: "$greatestCommonDivisor",
   aliases: ["$gcd"],
   version: "1.0.0",
-  output: ArgType.Boolean,
+  output: ArgType.Number,
   description: "Get the Least Common Divider of NumberA and NumberB.",
   unwrap: true,
   args: [

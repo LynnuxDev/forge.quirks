@@ -11,6 +11,18 @@ declare const _default: NativeFunction<[{
     required: true;
     rest: false;
     type: ArgType.Number;
+}, {
+    name: string;
+    description: string;
+    required: true;
+    rest: false;
+    type: ArgType.Number;
+}, {
+    name: string;
+    description: string;
+    required: true;
+    rest: false;
+    type: ArgType.Number;
 }], true>;
 export default _default;
-//# sourceMappingURL=greatestCommonDivisor%20copy.d.ts.map
+//# sourceMappingURL=distance.d.ts.map

@@ -5,7 +5,7 @@ exports.default = new forgescript_1.NativeFunction({
     name: "$leastCommonMultiple",
     aliases: ["$lcm"],
     version: "1.0.0",
-    output: forgescript_1.ArgType.Boolean,
+    output: forgescript_1.ArgType.Number,
     description: "The Least Common Multiple of NumberA and NumberB.",
     unwrap: true,
     args: [
@@ -36,4 +36,4 @@ exports.default = new forgescript_1.NativeFunction({
         return this.success((a * b) / gcd);
     },
 });
-//# sourceMappingURL=greatestCommonDivisor%20copy.js.map
+//# sourceMappingURL=leastCommonMultiple.js.map

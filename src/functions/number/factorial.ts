@@ -4,12 +4,12 @@ export default new NativeFunction({
   name: "$factorial",
   version: "1.0.0",
   output: ArgType.Number,
-  description: "",
+  description: "Return the factorial number of a number. Keep in mind there are JS limitations when the number is to big it will show infinite",
   unwrap: true,
   args: [
     {
       name: "Number",
-      description: ".",
+      description: "number to get the factorial of.",
       required: true,
       rest: false,
       type: ArgType.Number,

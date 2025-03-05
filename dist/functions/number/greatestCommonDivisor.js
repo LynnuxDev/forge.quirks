@@ -5,7 +5,7 @@ exports.default = new forgescript_1.NativeFunction({
     name: "$greatestCommonDivisor",
     aliases: ["$gcd"],
     version: "1.0.0",
-    output: forgescript_1.ArgType.Boolean,
+    output: forgescript_1.ArgType.Number,
     description: "Get the Least Common Divider of NumberA and NumberB.",
     unwrap: true,
     args: [
