@@ -2,10 +2,10 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const forgescript_1 = require("@tryforge/forgescript");
 exports.default = new forgescript_1.NativeFunction({
-    name: "$distance",
+    name: "$manhattanDistance",
     version: "1.0.0",
     output: forgescript_1.ArgType.Number,
-    description: "Get the euclidean distance on a 2D platform",
+    description: "Get the manhattan Distance on a 2D platform",
     unwrap: true,
     args: [
         {
@@ -39,7 +39,7 @@ exports.default = new forgescript_1.NativeFunction({
     ],
     brackets: true,
     execute(ctx, [x1, y1, x2, y2]) {
-        return this.success(Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2)));
+        return this.success(Math.abs(x2 - x1) + Math.abs(y2 - y1));
     },
 });
-//# sourceMappingURL=distance.js.map
+//# sourceMappingURL=manhattanDistance.js.map

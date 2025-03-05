@@ -4,7 +4,7 @@ export default new NativeFunction({
   name: "$distance",
   version: "1.0.0",
   output: ArgType.Number,
-  description: "Get the distance on a 2D platform",
+  description: "Get the euclidean distance on a 2D platform",
   unwrap: true,
   args: [
     {
